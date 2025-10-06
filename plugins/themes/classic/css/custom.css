@@ -1,0 +1,10 @@
+/* custom.css - Additional styling for footer logos and hover effect */
+
+.site-footer a img {
+    transition: opacity 0.3s ease;
+}
+
+.site-footer a img:hover {
+    opacity: 0.75;
+    cursor: pointer;
+}
